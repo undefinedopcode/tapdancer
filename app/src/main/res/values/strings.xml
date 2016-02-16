@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">tapDancer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="toggle_autopause">Toggle AutoPause</string>
+    <string name="auto_pause">Auto Pause</string>
+    <string name="menu_quit">Quit</string>
+    <string name="help">Help</string>
+    <string name="web">www</string>
+    <string name="c64options">C64 Options (incl TurboTape!)</string>
+    <string name="first_silence">Pause at first silence</string>
+    <string name="long_silence_only">Pause for long silences only</string>
+    <string name="tap_summary">TAP specific options</string>
+    <string name="pause_during_silence">Pause during silence</string>
+    <string name="play_thru_silence">Ignore silence</string>
+    <string name="silence_behaviour">Behaviour when encountering breaks on tape.</string>
+    <string name="pause_first_silence">Always pause for first silence</string>
+    <string name="pause_first_optional">Pause only if silence exceeds specified duration</string>
+    <string name="fs_pause">First Silence</string>
+    <string name="long_silences_only">Long Silences only</string>
+    <string name="long_silence_def">Long silence is greater than 1 second</string>
+    <string name="pause_long_only">Pause long silences only</string>
+    <string name="pause_all_silences">Pause on all silences</string>
+    <string name="short_silence_duration">Short Silence Duration</string>
+    <string name="short_silence_summary">Short Silence (samples at 44.1Khz)</string>
+    <string name="long_silence_dialog_title">Long Silence</string>
+    <string name="long_silence_dialog_summary">Long silence duration (samples at 44.1Khz)</string>
+    <string name="long_silence_duration">Long Silence Duration</string>
+    <string name="long_silence_summary">Long Silence (samples at 44.1Khz)</string>
+    <string name="genoptions">General Options</string>
+    <string name="gen_summary">General settings for all source types</string>
+    <string name="pause_behaviour">Pause Behaviour</string>
+    <string name="pause_behaviour_summary">How the pause button works</string>
+    <string name="pause_next_silence">Pause stops at next silence</string>
+    <string name="pause_instant">Pause acts instantly</string>
+    <string name="autopauseoptions">AutoPause options</string>
+    <string name="airplanewarning">For best results, it is recommended to use this app in airplane mode as it will reduce potential noise and interference with the audio signal.</string>
+    <string name="dontshowwarning">Don\'t show me this message again.</string>
+    <string name="storage_location">Storage Location</string>
+    <string name="storage_location_summary">Choose the storage location</string>
+    <string name="choose_storage">Storage Location</string>
+    <string name="prgoptionssummary">T64/PRG Specific options</string>
+    <string name="prgloadertype">Loader type for PRG/T64/P00</string>
+    <string name="loaderencoding">Loader encoding</string>
+    <string name="not_rev_signal">Do not reverse signal polarity</string>
+    <string name="do_rev_signal">Reverse the output signal polarity</string>
+    <string name="signal_polarity">Output Signal</string>
+    <string name="tzx_heading">Spectrum TZX/TAP</string>
+    <string name="tzx_summary">Options for TZX/TAP rendering</string>
+    <string name="tzx_22khz">22050Hz sample rate</string>
+    <string name="tzx_44khz">44100Hz sample rate</string>
+    <string name="tzx_samples">TZX/TAP Sample rate</string>
+
+</resources>

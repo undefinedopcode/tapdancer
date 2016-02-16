@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.kica.tapdancer"
+    android:versionCode="181"
+    android:versionName="1.81" android:installLocation="preferExternal">
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="11" />
+    <application android:allowBackup="true" android:icon="@drawable/td_512" android:label="@string/app_name" android:theme="@style/AppTheme" android:testOnly="false">
+        <activity android:name="co.kica.tapdancer.FileChooser" android:screenOrientation="landscape" android:launchMode="singleTask" android:theme="@style/AppTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.ALTERNATIVE" />
+                <action android:name="android.intent.action.PICK" />
+            </intent-filter>
+        </activity>
+        <activity android:name="co.kica.tapdancer.RenderActivity" android:screenOrientation="landscape" android:launchMode="standard" android:noHistory="true">
+            <intent-filter>
+                <category android:name="android.intent.category.ALTERNATIVE" />
+            </intent-filter>
+        </activity>
+        <activity android:name="co.kica.tapdancer.HelpActivity" android:screenOrientation="landscape" android:launchMode="standard">
+            <intent-filter>
+                <category android:name="android.intent.category.ALTERNATIVE" />
+            </intent-filter>
+        </activity>
+        <activity android:name="co.kica.tapdancer.PlayActivity" android:screenOrientation="landscape" android:launchMode="singleTask">
+            <intent-filter>
+                <category android:name="android.intent.category.ALTERNATIVE" />
+            </intent-filter>
+        </activity>
+        <activity android:name="co.kica.tapdancer.SplashActivity" android:noHistory="true" android:screenOrientation="landscape" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="co.kica.tapdancer.SecondSplashActivity" android:noHistory="true" android:screenOrientation="landscape" android:launchMode="singleTask">
+            <intent-filter>
+                <category android:name="android.intent.category.ALTERNATIVE" />
+            </intent-filter>
+        </activity>
+        <activity android:name="co.kica.tapdancer.UserSettingsActivity" android:noHistory="true" android:screenOrientation="landscape" android:launchMode="singleTask">
+            <intent-filter>
+                <category android:name="android.intent.category.ALTERNATIVE" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

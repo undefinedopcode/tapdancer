@@ -1,0 +1,87 @@
+<html>
+
+<head>
+	<title>tapDancer Help</title>
+</head>
+
+<body bgcolor="#0000AA" background="tapdancer_background.jpg">
+<font color="#AAAAFF" face="Arial" size=5><h1>tapDancer Help</h1>
+<table width=95%><tr><td>
+<img src=td_help.png align=right><font size=4 color="#AAAAFF">
+<P><B>We look forward to reading your rating / review on tapDancer's Google Play store page. We've spent dozens of hours developing and enhancing this FREE product for your enjoyment -- your token reciprocation will be greatly appreciated. Thank you!</B></P>
+
+<h3>Introduction</h3>
+<P><img src=td.png height=192 align=right>tapDancer converts archives of vintage games and other software into audio waveforms that your classic 1980's-era computer(s) can understand and plays them back, allowing you to once again use these programs on your cherished  system(s) using your mobile Android device, and a tape-interface cable or CD-to-cassette adaptor (depending on the computer.)</P>
+
+<P>Currently, tapDancer supports Commodore (TAP / T64 / PRG / P00 formats), Acorn Electron / BBC (UEF), MSX 1/2 (CAS), Sinclair Spectrum (TZX), Amstrad CPC (CDT *Experimental) and the Atari 8-bit line (CAS *Experimental).</P>
+
+
+
+<h3>Example: Using tapDancer with a Commodore 64</h3>
+
+<img src=td_c64.jpg WIDTH=100%> <font size=4>
+<p>Using tapDancer, you can load games onto a real Commodore 64 / VIC20 (and many other computers; see below)  using a cheap
+CD to cassette adapter.</p>
+<img src=td_cassette_adapter.jpg WIDTH=100%> <font size=4>
+<p> Before you begin, load the desired files (.TAP / .T64 / .PRG) on to your SDCard over a USB connection to your desktop PC.</p>
+
+<h3>Steps:</h3>
+<ol>
+<li>Plug the 3.5mm jack from the cassette adapter into your smartphone
+or  tablet's headphone jack</li>
+<BR> <img src=td_empty.jpg WIDTH=90%>  
+<BR><BR><li>Place the cassette portion of the adapter into the C2N datasette, 
+close   the lid, and press down the play key on the datasette.</li>
+<BR> <img src=td_play.jpg WIDTH=90%>  
+<BR><BR><li>Press the EJECT button on the TapDancer screen to select a .TAP file.
+ These files should be stored on your SD card / large storage.</li>
+<BR> <img src=td_eject.jpg WIDTH=90%>  
+<BR><BR><li>After the audio is ready, you will see the message:  "Ready. PRESS PLAY ON TAPE..."</li>
+<BR> <img src=td_ready.jpg WIDTH=90%>  
+<BR><BR><li>Hold down SHIFT and press the RUN/STOP key on the machine.  It will start searching for a program.</li>
+<BR> <img src=td_runstop.jpg WIDTH=90%>  
+<BR><BR><li>Press PLAY on the TapDancer screen.</li>
+<BR> <img src=td_press_play.jpg WIDTH=90%>  
+</ol>
+
+<p>Don't forget to press the C64's spacebar if/when prompted! (Auto-pause can help with this; see below.)</P>
+<H3>Using tapDancer With Other Computers:</h3>
+
+<p>Using tapDancer with other computers (such as the Acorn Electron or an MSX-based machine) is a similar if slightly different process.</p>
+<p>For example, you don't typically need to press a key to continue the loading process -- once loading begins, the process is only interrupted if the program prompts for information. The auto-pause feature (see below) can assist with this.</p>
+<p>Also, the command directing your particular computer to begin loading data will be different, for example BLOAD or CLOAD. Generally, the right load command can be found on the same website as you found the file, or it may exist inside the file name (ie: BLOAD"CAS:",R)</p>
+<p>You may also not need to use a CD-to-cassette adaptor, if your computer has a cable that connects to a generic tape player. In that case, you can connect the computer directly to your Android device.</p>
+<p><img src="td_www.png" align=right>For the benefit of other users, please post your experiences with your particular computer in the support forum on the tapDancer website, or in the feedback section of the tapDancer Google Play page. This will help others avoid struggling with the idiosyncracies you overcome, and be great karma!</p>
+<H3>Auto-Pause, TurboTape and Other Settings:</H3>
+<P><B>Auto-Pause</B></P>
+<P><img src=td_menu.png align=right>tapDancer features the ability to automatically pause playback when there are 'gaps' in the data-stream, which can be useful with programs that load in multiple parts, or where the computer prompts the user for information. Once the computer is ready to continue loading, you press the play button to proceed.</P>
+<P>To activate or fine-tune this feature, proceed to the Settings menu through either the menu key on your device, then selecting Settings, or by pressing the Settings icon on the main tapDancer interface screen, and selecting Settings.</P>
+<img src=td_settings.jpg width=90%><BR>
+<P>Once in the Settings, scroll to locate the Auto-Pause section (if necessary.) You will find the following options:</P>
+<P> Pause Behaviour: Checking this box changes the behaviour of the pause button from instantly pausing when pressed (default) to pausing the next time silence (a gap) is encountered in the data stream. Handy if you know when a break will occur.</P>
+<P> Auto Pause: Pauses when silence is encountered based on the accompanying settings. The defaults are typically sufficient, but may need to be 'tweaked' to match your particular situation.</P>
+<P> First Silence: If checked, will always pause on the first encountered silence. Useful for Commodore files (FOUND GAME).</P>
+<P> Long Silences Only: Will only pause on silences longer than the duration specified in Long Silence Duration.</p>
+<P> Short Silence Duration: Specifies the minimum number of 'silent' samples (at 44Khz) to qualify as silence (this has a default setting that typically doesn't require modification.)</P>
+<P> Long Silence Duration: Specifies the minimum number of 'silent' samples (at 44Khz) to qualify as a long silence (this has a default setting that typically doesn't require modification.)</P> 
+<P><B>TurboTape</B></P>
+<P>tapDancer also allows Commodore .T64, .P00 and .PRG files to be compressed using a method known as TurboTape. This method can load some programs faster than using a 1541 Disk Drive.</P>
+<P>By default, tapDancer is set to compress these files using Normal Turbo. This is a relatively conservative choice, balancing speed with stability. There are three other modes: Safe Turbo, which sacrifices speed for additional stability; Super Turbo, which sacrifices stability for greater speed; and Rom Loader, which is uncompressed (and takes substantially longer to load than any of the other options.)</P> 
+<P>To change from one mode to the other, proceed to the Settings menu. Select the TurboTape entry, and then choose the preferred mode from the radio button list presented.</P>
+<P><B>Polarity</B></P>
+<P>Selecting this setting reverses the polarity of the output. Useful to try on Android devices whose audio output doesn't seem to be recognised by your classic computer.</P>
+<P><B>Change Storage Location</B></P>
+<P>You can change which location (SDCard, internal storage, etc.) tapDancer browses for files on when you press the Eject button inside the Settings menu.</P>
+
+<H3>Additional Notes:</h3>
+<p>You can use the volume keys on your device to set the volume (displayed on  right.) Please note that each device has a "sweet spot" for volume (generally  around two thirds of full volume).  
+It may take some experimentation to get the levels right.</p>
+<p>Place your device into 'airplane mode' to avoid interference from cellular transmissions.</p>
+<p><img src=td_player.png height=128 align=right>Also, please note that magnetism can create difficulties. Please keep your  datasette / mobile phone away from any CRT monitors. If you suddenly  experience problems loading programs, demagnetise your tape head.</p>
+
+<p><i>Good luck and happy tapDancing!</i></p>
+ <font size=2>tapDancer is © 2013 A Ayres & M Griffiths DBA Kicaco Pty. Developed by April and Melody Ayres-Griffiths.
+</td></tr></table>
+</body>
+
+</html>

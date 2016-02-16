@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="prgLoaderType">
+        <item name="rom">C64 ROM Loader</item>
+        <item name="t1">Safe Turbo</item>
+        <item name="t2">Normal Turbo</item>
+        <item name="t3">Super Turbo!</item>
+    </string-array>
+    
+    <string-array name="prgLoaderTypeValues">
+        <item name="rom">-1</item>
+        <item name="t1">2</item>
+        <item name="t2">1</item>
+        <item name="t3">0</item>
+    </string-array>
+    
+</resources>
