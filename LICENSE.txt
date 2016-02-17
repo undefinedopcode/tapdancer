@@ -1,0 +1,90 @@
+LICENSE
+=======
+
+  Preamble
+  --------
+  This License applies to the computer program whith with this licence
+  is distributed (now the "Program"). The Program is intellectual property of
+  April Ayres (the "Author") and is placed under the protection of
+  copyright laws, including Australian legislation and international treaties
+  such as the Berne Convention.
+
+  Please note that this License is NOT a free software licence as defined
+  by the Free Software Foundation. Usage of the software covered by this
+  licence is allowed free of charge, but its COMMERCIAL DISTRIBUTION IS
+  PROHIBITED. This licence states that no profit could be made by third
+  parties from the covered software.
+
+  BY USING OR DISTRIBUTING THE PROGRAM (OR ANY WORK BASED ON THE PROGRAM),
+  YOU INDICATE YOUR ACCEPTANCE OF THIS LICENSE TO DO SO, AND ALL ITS TERMS
+  AND CONDITIONS FOR USING AND DISTRIBUTING THE PROGRAM OR WORKS BASED ON
+  IT. NOTHING OTHER THAN THIS LICENSE GRANTS YOU PERMISSION TO DISTRIBUTE
+  THE PROGRAM OR ITS DERIVATIVE WORKS. THESE ACTIONS ARE PROHIBITED BY LAW.
+  IF YOU DO NOT ACCEPT THESE TERMS AND CONDITIONS, DO NOT DISTRIBUTE THE
+  PROGRAM.
+
+  Licenses
+  --------
+  Licensor hereby grants you the following rights, provided that you comply 
+  with all of the restrictions set forth in this License and provided, further, 
+  that you distribute an unmodified copy of this License with the Program:
+
+  * Permission is granted to use the Program for non-commercial purposes;
+
+  * You may copy and distribute literal (i.e. verbatim) copies of the Program 
+    as you receive it throughout the world, in any medium;
+
+  * You may create works based on the Program and distribute copies of such 
+    throughout the world, in any medium, so long as you publish the modified
+    source-code in a publicly available forum.
+
+  * You must credit the original author in any modified binary, and ensure
+    credit also remains in the modified source-code.
+
+  Restrictions
+  ------------
+  This license is subject to the following restrictions:
+
+  * The Program may not be used for commercial purposes.
+
+  * Every distribution of the Program must retain a copy of this license.
+
+  * The Program may not be sold or incorporated into any product which is sold 
+    without prior permission from the Author. Distribution of the Program or any 
+    work based on the Program by a commercial organization to any third party 
+    without permission is prohibited if any payment is made in connection with 
+    such distribution, whether directly (as in payment for a copy of the Program) 
+    or indirectly (as in payment for some service related to the Program, or pay-
+    ment for some product or service that includes a copy of the Program "without 
+    charge").
+
+  * Any output produced through the use of the Program, or derived from, is 
+    subject to this license, i.e. content made by running the Program may be freely 
+    distributed provided that no direct or indirect payment is required by the 
+    distributor in exchange of this content. Distribution of produced content must 
+    also follow the rules that may govern distribution and exploitation of the 
+    input material and/or the software that generated it.
+
+  * You may not impose any further restrictions on the recipient's exercise of the 
+    rights granted herein.
+
+  Limitations
+  -----------
+  THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
+  APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
+  HOLDER AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
+  OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
+  THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+  PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE
+  PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE
+  COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+  IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+  WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY REDISTRIBUTE THE
+  PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY
+  GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE
+  USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS
+  OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR
+  THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER
+  PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE
+  POSSIBILITY OF SUCH DAMAGES.
